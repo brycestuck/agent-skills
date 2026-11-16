@@ -1,0 +1,23 @@
+{
+  "name": "agent-skills",
+  "owner": {
+    "name": "Bryce Stuckenschneider"
+  },
+  "metadata": {
+    "description": "Everyday skills for Claude and other AI agents: idea briefing, critic-driven build loops, and AI ambition coaching.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "agent-skills",
+      "description": "Half an Idea, Gauntlet Loop, and AI Ambition Coach.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/half-an-idea",
+        "./skills/gauntlet-loop",
+        "./skills/ai-ambition-coach"
+      ]
+    }
+  ]
+}

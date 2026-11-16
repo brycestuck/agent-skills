@@ -1,0 +1,4 @@
+interface:
+  display_name: "Half an Idea"
+  short_description: "Turn a half-formed idea into a clear brief and useful work"
+  default_prompt: "Use $half-an-idea on the rough idea I provide. Infer what you safely can, ask at most one question only when the answer would materially change the result, build the minimum-sufficient brief, and default to doing the work rather than merely handing me a prompt."

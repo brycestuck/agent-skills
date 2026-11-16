@@ -1,0 +1,14 @@
+interface:
+  display_name: AI Ambition Coach
+  short_description: Assess your approach and expand AI responsibility
+  default_prompt: Use $ai-ambition-coach to assess whether this idea is ambitious
+    enough with AI, explain its level, and show me stronger pathways.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gauntlet Loop"
+  short_description: "Push ambitious work through specialist builds and independent critics"
+  default_prompt: "Use $gauntlet-loop on the goal I provide. Get clear on what I am trying to make true, choose a concrete benchmark, break the goal into the parts that matter, use fresh specialist sub-agents and separate critics, then put the pieces together and test the whole thing. Ask at most one question when my answer would materially improve the goal."
